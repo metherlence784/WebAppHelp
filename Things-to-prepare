@@ -1,0 +1,17 @@
+https://golang.org/dl/
+>> tar -vf g0... -C /usr/local
+>> chown -R root:root /usr/local/go
+>> gedit ~/.profile
+  export GOPATH=$HOME/go
+  export PATH=$PATH:$GOPATH/bin
+>> . ~/.profile
+>> echo $PATH
+(if all else fails see the website guide)
+
+Once GO is installed, get the these few :
+assetfinder
+amass
+httprobe
+gowitness
+subjack
+waybackurls
